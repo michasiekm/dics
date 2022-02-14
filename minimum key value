@@ -1,0 +1,8 @@
+dicker = {
+    'Physics': 82,
+    'Math': 65,
+    'history': 75
+}
+
+
+print(min(dicker, key=dicker.get))
